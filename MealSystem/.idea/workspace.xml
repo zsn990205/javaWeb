@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MealSystem:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d5b2d5f-e009-483f-9c14-281456c24591" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g04rW6AzQQnIyReqWfzdwxM8VL" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/MealSystem_jar/MealSystem.jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Deploy to Host.MealSystem">
+    <configuration name="TestGson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestGson" />
+      <module name="MealSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.UserDao" />
+      <module name="MealSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MealSystem" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="accountModel" />
+      <option name="accountModels" />
+      <option name="address" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances" />
+      <option name="hostIds">
+        <list>
+          <option value="2" />
+        </list>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/root/java16/apache-tomcat-8.5.57/webapps " />
+      <option name="pathOrUrl" value="E:\java\MealSystem\target\MealSystem.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../MealSystem\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="db_test" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="accountModel" />
+      <option name="accountModels" />
+      <option name="address" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances" />
+      <option name="hostIds">
+        <list>
+          <option value="2" />
+        </list>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/root/java16" />
+      <option name="pathOrUrl" value="E:\java\MealSystem\out\artifacts\MealSystem_jar\MealSystem.jar" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="FILE" />
+      <method v="2" />
+    </configuration>
+    <configuration name="java_order_system" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="accountModel" />
+      <option name="accountModels" />
+      <option name="address" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances" />
+      <option name="hostIds">
+        <list>
+          <option value="2" />
+        </list>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/root/java16/apache-tomcat-8.5.57/webapps " />
+      <option name="pathOrUrl" value="E:\java\MealSystem\target\MealSystem.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../MealSystem\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestGson" />
+        <item itemvalue="Application.UserDao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d5b2d5f-e009-483f-9c14-281456c24591" name="Default Changelist" comment="" />
+      <created>1597238374663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597238374663</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="77" key="#Deploy_to_Host" timestamp="1598752905398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="77" key="#Deploy_to_Host/0.0.1536.824@0.0.1536.824" timestamp="1598752905398" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601879238822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601879238822" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1598685882689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598685882689" />
+    <state x="520" y="194" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597654548292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="194" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1597654548292" />
+    <state x="570" y="167" key="FileChooserDialogImpl" timestamp="1597711261554">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597711261554" />
+    <state width="1492" height="93" key="GridCell.Tab.0.bottom" timestamp="1598775876985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="93" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598775876985" />
+    <state width="1492" height="93" key="GridCell.Tab.0.center" timestamp="1598775876985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="93" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598775876985" />
+    <state width="1492" height="93" key="GridCell.Tab.0.left" timestamp="1598775876985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="93" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598775876985" />
+    <state width="1492" height="93" key="GridCell.Tab.0.right" timestamp="1598775876985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="93" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598775876985" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1601879253473">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601879253473" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1602241188659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602241188659" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598698539271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598698539271" />
+  </component>
+</project>
