@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--通过bean标签定义Bean对象 spring bean容器是通过id来进行管理的 id相当于bean的名称
+     spring可以通过id来找到bean对象 默认是单例模式 -->
+    <!--通过无参的构造方法 创建一个对象 该类型如果没有无参的方法就会报错 -->
+    <bean id="bit" class="java.lang.String">
+     <constructor-arg value="小比特"/>
+    </bean>
+    <bean id="s1" class="java.lang.String">
+        <constructor-arg value="LadyGaga"/>
+    </bean>
+
+<!--    <bean class="java.lang.String"></bean>-->
+   <bean id="d" class="Frank.Duck">
+       <property name="name" ref="s1"/>
+      <property name="age" value="18"/>
+    </bean>
+    <bean id="d_2" class="Frank.Duck">
+        <property name="name" value="s2"/>
+        <property name="age" value="18"/>
+    </bean>
+    <bean id="d_3" class="Frank.Duck">
+        <property name="name" value="s3"/>
+        <property name="age" value="18"/>
+    </bean>
+    <bean id="shop" class="Frank.DuckShop">
+    <property name="ducks">
+    <list>
+        <ref bean="d"/>
+        <ref bean="d_2"/>
+        <ref bean="d_3"/>
+    </list>
+   </property>
+    </bean>
+
+    <bean id="dk1" class="Frank.Duck2">
+        <property name="name" value="北京烤鸭" />
+        <property name="age" value="2" />
+        <property name="next" ref="dk2"/>
+    </bean>
+    <bean id="dk2" class="Frank.Duck2">
+        <property name="name" value="甜皮鸭" />
+        <property name="age" value="3" />
+        <property name="next" ref="dk3"/>
+    </bean>
+    <bean id="dk3" class="Frank.Duck2">
+        <property name="name" value="酱香鸭" />
+        <property name="age" value="1" />
+    </bean>
+
+
+</beans>
